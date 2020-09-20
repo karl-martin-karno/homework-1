@@ -79,17 +79,18 @@ input:hover {
 }
 
 .btn-group {
-    width: 60%;
+    width: 100%;
+	max-width: 300px;
     display: flex;
 	margin: 20px 0;
 }
 
 button {
-    flex-basis: 50%;
+    width: 50%;
 	font-size: 16px;
     padding: 15px;
 	border-radius: 5px;
-	border: none;
+	border: 1px solid #1b9fd8;
 	cursor: pointer;
 	background-color: #1b9fd8;
 }
@@ -132,5 +133,5 @@ a:hover {
 
 	img {
 		display: none;
-	}
+    }
 }
