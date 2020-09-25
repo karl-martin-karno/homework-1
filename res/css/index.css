@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Quicksand', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -17,6 +18,13 @@ html, body, main {
     height: 100%;
     margin: 0;
     overflow: auto;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    background-color: white;
 }
 
 header {
@@ -73,12 +81,6 @@ header {
     background: rgb(0, 124, 248);
 }
 
-main {
-    width: 60%;
-    margin: auto;
-    padding-top: 100px;
-    background-color: white;
-}
 
 .post {
     display: block;
