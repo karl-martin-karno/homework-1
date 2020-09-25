@@ -84,9 +84,9 @@ main {
     display: block;
     width: 80%;
     padding: 10px 0;
-    margin: 30px auto;
+    margin: 35px auto;
     border-radius: 15px;
-    box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 15px #9b9b9b;
 }
 
 .post-top {
